@@ -1,0 +1,55 @@
+Git Commands
+
+# create initialize the git repo
+git init —>  .git 
+what is .git —> it is a folder all the tracking information and configure the rule
+
+#to add any files to git 
+git add example.sh / git add .
+
+git commit -m “my first commit”
+
+Pushing our code to our repository, where others can use
+git push 
+
+
+to clone is process to pull code from the remore reporsitory 
+clone is nothing but download 
+ssh-keygen -t rsa
+git clone
+
+clone vs Fork
+Fork: craete a copy
+Clone is downlad
+Our won project repository from the other / existign repositoreis 
+
+git pull
+
+remote repository.
+git remote -v
+git remote add “repositiry name”
+
+
+to understand the diffrence and any chnages 
+git diff
+
+chekc the logs of git and to understnad who made the changes in the hostiry 
+git log
+
+
+Branch:  
+git branch
+
+
+git checkout -b division  # branch creation 
+#switching the branch 
+git checkout main 
+
+
+git status
+
+git merge <branch name> # track would be difficult whne compare to git rebase
+git cherry-pick  (works for small)
+git rebase <branchname> # helps in more lenier order helps in track the chnages
+
+

@@ -9,31 +9,33 @@ git add example.sh / git add .
 
 git commit -m “my first commit”
 
-Pushing our code to our repository, where others can use
+#Pushing our code to our repository, where others can use
 git push 
 
 
-to clone is process to pull code from the remore reporsitory 
-clone is nothing but download 
-ssh-keygen -t rsa
-git clone
+#clone is process to pull code from the remote reporsitory 
+#clone is nothing but download 
+git clone <repo>
 
-clone vs Fork
-Fork: craete a copy
-Clone is downlad
+#generating the SSH keys
+ssh-keygen -t rsa
+
+#clone vs Fork
+#Fork: craete a copy
+#Clone is download
 Our won project repository from the other / existign repositoreis 
 
 git pull
 
-remote repository.
+#remote repository.
 git remote -v
 git remote add “repositiry name”
 
 
-to understand the diffrence and any chnages 
+#to understand the diffrence and any changes 
 git diff
 
-chekc the logs of git and to understnad who made the changes in the hostiry 
+#check the logs of git and to understand who made the changes in the hostiry 
 git log
 
 
